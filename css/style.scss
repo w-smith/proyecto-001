@@ -60,6 +60,26 @@ html{
 }
 
 .buscar{
-	padding: 5px
+	padding: 5px;
+	
+	span.separator::before{
+		content: "";
+		width: 1px;
+	}
+
+	.input-buscar{
+		height: 16px;
+    	padding: 0px 5px;
+	}
+
+	.btn-buscar{
+		width: 61px;
+	    height: 20px;
+	    background: #00708C;
+	    border: none;
+	    font-weight: bold;
+	    color: #FFF;
+	    font-size: 0.85em;
+	}
 }
 
